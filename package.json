@@ -1,0 +1,19 @@
+{
+  "name": "lighthouse-analyzer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "dependencies": {
+    "lighthouse": "^11.2.0"
+  },
+  "devDependencies": {
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2"
+  }
+}
