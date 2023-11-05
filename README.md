@@ -1,6 +1,6 @@
 # Simple lighthouse analyzer
 ## Description
-This is a simple script that runs lighthouse on one or more urls and outputs the results in a tsv file in a way that after importing it in a spreadsheet you can easily compare the results, calculate averages, etc.
+This is a simple script that runs lighthouse on one url and outputs the results in a html file after doing n number of measurements and calculating the average.
 
 ## Usage
 First, install the dependencies:
@@ -11,6 +11,6 @@ npm install
 Then, run the script:
 
 ```js
-npm run start https://www.example.com [https://www.example2.com ...]
+npm run start https://www.example.com
 ```
 The report will generated in the 'reports' folder.
